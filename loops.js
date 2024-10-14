@@ -32,3 +32,23 @@ for(var x = 0; x < list.length; x++){
         break
     }
 }
+
+
+
+// ##################  WHILE LOOP  ####################
+
+
+var i = 0
+while (i < 10){
+    console.log(i)
+    i++
+}
+
+
+arr = ["Manny", "Joe", "Lisa"]
+
+var i = 0
+while (i < arr.length){
+    console.log(arr[i])
+    i++
+}
