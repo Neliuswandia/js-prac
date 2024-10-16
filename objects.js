@@ -7,9 +7,14 @@ const product1 = {
 
 console.log(product1)
 
-JSON.stringify(console.log(product1))
-result = JSON.stringify(console.log(product1))
+console.log(product1.name)
 
-console.log(result)
+console.log(product1.course)
 
-// JSON.parse(console.log(result))
+const keys = Object.keys(product1);
+console.log(keys)
+
+const values = Object.values(product1);
+console.log(values)
+
+console.log(keys, values)
