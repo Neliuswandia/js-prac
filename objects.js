@@ -18,3 +18,6 @@ const values = Object.values(product1);
 console.log(values)
 
 console.log(keys, values)
+
+const entries = Object.entries(product1)
+console.log(entries)
