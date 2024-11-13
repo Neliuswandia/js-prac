@@ -38,3 +38,18 @@ console.log(mainHeading)
 //     document.getElementById("mainHeading").style.color = "red";
 // });
 
+
+// ###########  Creating elements  ###################
+const firstList = document.getElementsByClassName("firstList")[0]; //use the indexing when using the class since it selects from
+                                                                     // multiple elements with the same class name when using the id 
+                                                                     //or unique identifier you have to use the index identifier
+const listItem1 = document.createElement("li");
+
+listItem1.textContent = "New item";
+
+firstList.appendChild(listItem1);
+
+// alert (listItem1.textContent); // for checking if the code is working properly
+
+
+
