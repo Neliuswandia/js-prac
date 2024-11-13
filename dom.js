@@ -15,3 +15,13 @@ const div = document.getElementByQuerySelector("div"); // pics the first element
 
 // querySelectorAll()
 const button = document.getElementByQuerySelector("button"); // pics the all the elements that are the same
+
+function colorChanger(){
+//  const mainHeading = document.getElementById("mainHeading").innerHTML = "This is Nell"
+    const mainHeading = document.getElementById("mainHeading")
+    if (mainHeading.innerHTML === "Introduction to DOM"){
+        mainHeading.innerHTML = "This is Nell"
+    }else {
+        mainHeading.innerHTML = "Introduction to DOM"
+    }
+}
