@@ -52,4 +52,12 @@ firstList.appendChild(listItem1);
 // alert (listItem1.textContent); // for checking if the code is working properly
 
 
+// ###########  Creating elements  ###################
 
+listItem1.setAttribute('id', 'mainHeading');
+
+// ###########  Deleting elements  ###################
+
+const listItem1 = document.getElementsByTagName("li")
+
+li.remove();
