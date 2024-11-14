@@ -58,6 +58,15 @@ listItem1.setAttribute('id', 'mainHeading');
 
 // ###########  Deleting elements  ###################
 
-const listItem1 = document.getElementsByTagName("li")
+// const listItem1 = document.getElementsByTagName("li")
 
-li.remove();
+// li.remove();
+
+
+
+// ###########  TRASVERSING THE DOM (Getting the parent, child and sibling nodes{elements}  ###################
+
+// ###########  Parent node trasversal  ###################
+
+const h1 = document.querySelector('h1');
+console.log(h1.parentNode)
