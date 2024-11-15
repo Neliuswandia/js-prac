@@ -68,11 +68,22 @@ listItem1.setAttribute('id', 'mainHeading');
 
 // ###########  Parent node trasversal  ###################
 
-const h1 = document.querySelector('h1');
-console.log(h1.parentNode)
-console.log(h1.parentNode.parentNode) //Getting the grandparentNode
+// const h1 = document.querySelector('h1');
+// console.log(h1.parentNode)
+// console.log(h1.parentNode.parentNode) //Getting the grandparentNode
 
 // ###########  child node trasversal  ###################
 
-const ul = document.querySelector('ul')
-console.log(ul.childNodes)
+// const ul = document.querySelector('ul')
+// console.log(ul.childNodes)//A space in the elements count as a child(text node)
+
+// ###########  child node trasversal  ###################
+const body = document.querySelector('body')
+console.log(body.previousSibling)
+console.log(body.previousElementSibling)
+
+// ###########  sibling node trasversal  ###################
+const myH1 = document.getElementById('myH1');
+console.log(myH1)
+console.log(myH1.nextSibling)   
+console.log(myH1.nextElementSibling)
