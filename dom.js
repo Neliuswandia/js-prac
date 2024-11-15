@@ -88,9 +88,8 @@ console.log(myH1.nextElementSibling)
 
 // ###########  EVENT LISTENERS  ###################
 
-
+// ###########  On Click  ###################
 function textChanger(){
-//  const mainHeading = document.getElementById("mainHeading").innerHTML = "This is Nell"
     const mainHeading = document.getElementById("mainHeading")
     if (mainHeading.innerHTML === "Introduction to DOM"){
         mainHeading.innerHTML = "This is Nell"
@@ -98,3 +97,11 @@ function textChanger(){
         mainHeading.innerHTML = "Introduction to DOM"
     }
 }
+
+const button = document.querySelector('button')
+
+function alertButton() {
+    alert("JS says hey")
+}
+
+button.addEventListener('click', alertButton)
