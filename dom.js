@@ -105,3 +105,16 @@ function alertButton() {
 }
 
 button.addEventListener('click', alertButton)
+
+// ###########  Mouseover(hover)  ###################
+const button2 = document.getElementById("testbtn-2")
+button2.addEventListener("mouseover", colorChanger)
+function colorChanger() {
+    button2.style.backgroundColor = "blue"
+}
+
+// ###########  Mouseover(hover)  ###################
+button2.addEventListener("mouseout", defaultColor)
+function defaultColor() {
+        button2.style.backgroundColor = "white"
+}
