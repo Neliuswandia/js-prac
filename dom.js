@@ -70,3 +70,9 @@ listItem1.setAttribute('id', 'mainHeading');
 
 const h1 = document.querySelector('h1');
 console.log(h1.parentNode)
+console.log(h1.parentNode.parentNode) //Getting the grandparentNode
+
+// ###########  child node trasversal  ###################
+
+const ul = document.querySelector('ul')
+console.log(ul.childNodes)
