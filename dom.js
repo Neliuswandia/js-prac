@@ -16,15 +16,7 @@
 // querySelectorAll()
 // const button = document.getElementByQuerySelector("button"); // pics the all the elements that are the same
 
-// function colorChanger(){
-// //  const mainHeading = document.getElementById("mainHeading").innerHTML = "This is Nell"
-//     const mainHeading = document.getElementById("mainHeading")
-//     if (mainHeading.innerHTML === "Introduction to DOM"){
-//         mainHeading.innerHTML = "This is Nell"
-//     }else {
-//         mainHeading.innerHTML = "Introduction to DOM"
-//     }
-// }
+
 
 // ###########  Styling elements  ###################
 document.getElementById("myH1").style.color = "blue";
@@ -66,6 +58,8 @@ listItem1.setAttribute('id', 'mainHeading');
 
 // ###########  TRASVERSING THE DOM (Getting the parent, child and sibling nodes{elements}  ###################
 
+
+
 // ###########  Parent node trasversal  ###################
 
 // const h1 = document.querySelector('h1');
@@ -81,9 +75,26 @@ listItem1.setAttribute('id', 'mainHeading');
 const body = document.querySelector('body')
 console.log(body.previousSibling)
 console.log(body.previousElementSibling)
+console.log(body.firstChild)
+console.log(body.lastChild)
 
 // ###########  sibling node trasversal  ###################
 const myH1 = document.getElementById('myH1');
 console.log(myH1)
 console.log(myH1.nextSibling)   
 console.log(myH1.nextElementSibling)
+
+
+
+// ###########  EVENT LISTENERS  ###################
+
+
+function textChanger(){
+//  const mainHeading = document.getElementById("mainHeading").innerHTML = "This is Nell"
+    const mainHeading = document.getElementById("mainHeading")
+    if (mainHeading.innerHTML === "Introduction to DOM"){
+        mainHeading.innerHTML = "This is Nell"
+    }else {
+        mainHeading.innerHTML = "Introduction to DOM"
+    }
+}
